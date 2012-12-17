@@ -1,0 +1,15 @@
+$include /etc/inputrc
+
+# for vi mode
+set editing-mode vi
+$if mode=vi
+
+set keymap vi-command
+Control-l: clear-screen
+"\C-x\C-e": edit-and-execute-command
+
+set keymap vi-insert
+Control-l: clear-screen
+"\C-x\C-e": edit-and-execute-command
+
+$endif
