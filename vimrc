@@ -3,6 +3,11 @@ set guifont=DejaVu\ Sans\ Mono:h14
 colorscheme darkblue
 set ruler
 
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
 set wildmenu " Popup a window showing all matching command above command line when autocomple
 
 set nocompatible
